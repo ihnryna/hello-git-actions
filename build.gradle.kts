@@ -18,7 +18,7 @@ dependencies {
 
 checkstyle {
     toolVersion = "10.15.0"
-    config = resources.text.fromFile("config/checkstyle/checkstyle.xml")
+    configFile = file("config/checkstyle/checkstyle.xml")
 }
 
 java {
