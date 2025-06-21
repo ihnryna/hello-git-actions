@@ -11,20 +11,20 @@ class CalculatorTest {
 
     @Test
     @DisplayName("2 + 2 = 4")
-    void TwoPlusTwo_ReturnsFour() {
+    void twoPlusTwoReturnsFour() {
         assertEquals(4, Calculator.add(2, 2));
     }
 
     @Test
     @DisplayName("99 + 5 = 104")
-    void NinetyNinePlusFive_ReturnsOneHundredAndFour() {
+    void ninetyNinePlusFiveReturnsOneHundredAndFour() {
         assertEquals(104, Calculator.add(99, 5));
     }
 
     @ParameterizedTest
     @CsvSource({"1", "-15", "0"})
     @DisplayName("0 + number = same number")
-    void PlusZero_ReturnsSameNumber(int a) {
+    void plusZeroReturnsSameNumber(int a) {
         assertEquals(a, Calculator.add(a, 0));
         assertEquals(a, Calculator.add(0, a));
     }
