@@ -16,7 +16,7 @@ public class Main {
             System.out.println("Enter second number: ");
             int b = in.nextInt();
 
-            System.out.println("Sum is: " + Calculator.add(a, b));
+            System.out.println("Sum is: " + Calculator.add_nums(a, b));
 
             System.out.println("Repeat? Y/N");
             String answer = in.next();

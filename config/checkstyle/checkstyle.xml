@@ -9,6 +9,8 @@
     </module>
 
     <module name="TreeWalker">
-        <module name="JavadocMethod"/>
+        <module name="MethodName"/>
+        <module name="ParameterName"/>
+        <module name="LocalVariableName"/>
     </module>
 </module>
